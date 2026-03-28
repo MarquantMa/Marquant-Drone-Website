@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Portfolio</title>
+    <meta name="description" content="A curated gallery of aerial and drone photography.">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-left">
+            <a href="#" class="nav-link active">work</a>
+            <a href="#" class="nav-link">about / contact</a>
+        </div>
+
+        <div class="nav-brand">
+            <a href="#">Lukas Furlan</a>
+        </div>
+
+        <div class="nav-right">
+            <!-- Social Icons (Using simple text/unicode for now, can replace with SVGs) -->
+            <a href="#" class="social-link">Be</a>
+            <a href="#" class="social-link">f</a>
+            <a href="#" class="social-link">••</a>
+            <a href="#" class="social-link">◓</a>
+        </div>
+
+        <!-- Mobile Hamburger Menu -->
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <a href="#" class="mobile-link active">work</a>
+        <a href="#" class="mobile-link">about / contact</a>
+        <div class="mobile-socials">
+            <a href="#">Be</a>
+            <a href="#">f</a>
+            <a href="#">••</a>
+            <a href="#">◓</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Lukas Furlan</h1>
+            <p class="hero-subtitle">I'm a photographer & student based in Vienna, Austria.<br>Scroll down to see my
+                work!</p>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 1L20 18L39 1" stroke="rgba(255,255,255,0.5)" stroke-width="2" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+    <main class="gallery-container">
+        <!-- Masonry grid populated by JavaScript -->
+        <div class="masonry-grid" id="portfolio-grid">
+            <!-- Images will be injected here -->
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
